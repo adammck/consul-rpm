@@ -6,4 +6,4 @@ if [ -z "$S3_PREFIX" ]; then
   exit 1
 fi
 
-aws s3 cp RPMS $S3_PREFIX --recursive
+aws s3 cp RPMS $S3_PREFIX --recursive --acl=public-read
