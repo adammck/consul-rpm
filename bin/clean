@@ -1,0 +1,5 @@
+#!/bin/bash -ex
+cd $(cd `dirname "$0"`; cd ..; pwd)
+
+find RPMS -name "*.rpm" -delete
+find SRPMS -name "*.rpm" -delete
