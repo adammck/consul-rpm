@@ -2,4 +2,4 @@
 cd $(cd `dirname "$0"`; cd ..; pwd)
 
 vagrant up --provision
-vagrant destroy
+vagrant destroy --force
