@@ -8,6 +8,7 @@ for my own personal use.
 Set up the environment:
 
 ```
+export BUILD_BOX=bento/centos-7.1
 export AWS_ACCESS_KEY_ID=xxxx
 export AWS_SECRET_ACCESS_KEY=yyyy
 export AWS_REGION=us-east-1
